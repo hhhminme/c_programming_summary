@@ -6,7 +6,7 @@
 int main(void)
 {
 	char array1[MAX_ARRAY_SIZE] = "ABCD";
-	char array2[MAX_ARRAY_SIZE] = { 'A','B','C','D','\0'};
+	char array2[MAX_ARRAY_SIZE] = {'a','b'};
 
 	printf("array1 : %s\n", array1);
 	printf("array2 : %s\n", array2);

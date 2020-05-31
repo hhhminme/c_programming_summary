@@ -4,8 +4,9 @@ int forFact(int n);
 int fact(int a);
 
 int main(void) {
-	//fact 
-	//n! = n*(n-1)
+	int result; 
+	result = forFact(5); 
+	printf("%d", result);
 	return 0;
 }
 
@@ -27,7 +28,7 @@ int forFact(int n) {
 	int index;
 	int result = 1;
 	for (index = n; index > 1; index--) {
-		result = result * index; 
+		result *= index; 
 	}
 	printf(" fact(%d) = %d\n", n, result);
 	return result; 

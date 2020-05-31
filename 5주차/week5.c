@@ -57,7 +57,6 @@ void test4() {
 	while (1) {
 		if (index % 2 == 1) {
 			printf("%5d", index);
-
 		}
 		index++;
 		if (index > 200) {

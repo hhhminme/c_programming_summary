@@ -1,6 +1,6 @@
 #include <stdio.h>
-void plus100(int* pa);
-void plus100_noPointer(int a);
+void plus100(int* pa); // call by reference 
+void plus100_noPointer(int a); // call by value 
 int main(void) {
 
 	int a = 100; 

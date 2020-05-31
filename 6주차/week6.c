@@ -9,7 +9,7 @@ int main(void) {
 
 	int a, b;
 	char op;
-	printf(" ")
+	printf(" ");
 	int result; 
 	result = calc(&a, &b, &op);
 	printf("num 1 : %5d, num 2 : %5d", a, b);

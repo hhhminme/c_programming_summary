@@ -10,8 +10,8 @@ int main(void) {
 	//f1 = 1; 종료 조건
 	int result; 
 
-	for (int i = 0; i < 10; i++) {
-		result = forFibo(i);
+	for (int i = 2; i < 10; i++) {
+		result = fibo(i);
 		printf("> (%5d) 번째 fibo %5d\n",i, result);
 	}
 
@@ -54,7 +54,7 @@ int forFibo(int n) {
 	}
 	else {
 
-		for (index = 2; index <= n; index++) {
+		for (index = start; index <= n; index++) {
 			fn = fn_1 + fn_2;
 			fn_2 = fn_1;
 			fn_1 = fn;

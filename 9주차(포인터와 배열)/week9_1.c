@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 #define MAX_ARRAY_SIZE 100
 
 int main(void) {
@@ -38,4 +38,3 @@ int main(void) {
 
 	return 0;
 }
-*/
