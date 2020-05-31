@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+/*#define _CRT_SECURE_NO_WARNINGS
 #define MAX_BUF_SIZE 7
 #include <stdio.h>
 //\n까지 문자 입력하기 
@@ -31,9 +31,12 @@ void my_gets(char* str, int size) {
 	char ch;
 	int i = 0; 
 	ch = getchar();
-	while ((ch != '\n') && (i < size - 1)) {
-		str[i] = ch;
-		i++;
+	/// 입력된 문자열 중에서 공백 없애기 
+	while ((ch != '\n')&& (i < size - 1)) {
+		if (ch != ' ') {
+			str[i] = ch;
+			i++;
+		}
 		ch = getchar();
 	}
 	str[i] = '\0';
@@ -46,3 +49,4 @@ int main() {
 	
 	return 0; 
 }
+*/
