@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{B643BC5F-CA63-4134-A387-17C448314CE8}</ProjectGuid>
-    <RootNamespace>My16장</RootNamespace>
+    <ProjectGuid>{FEE0818E-ED93-40AD-B0C3-063093D49DB1}</ProjectGuid>
+    <RootNamespace>My12장문자열과포인터</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -138,13 +138,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="malloc.cpp">
+    <ClCompile Include="scanf를 활용한문자열.c" />
+    <ClCompile Include="문자열상수의 내부표현.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="동적메모리공간을배열처럼사용하기.c">
+    <ClCompile Include="문자포인터변수로문자열상수접근.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="동적메모리할당량재조정.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

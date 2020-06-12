@@ -1,6 +1,6 @@
 //1. 실습 소문자 -> 대문자 
 // 대문자 -> 대문자로
-/*
+
 #define _CRT_SECURE_NO_WARNINGS
 #define MAX_BUF_SIZE 7
 #include <stdio.h>
@@ -13,7 +13,8 @@ void my_gets(char* str, int size) {
 	while ((ch != '\n') && (i < size - 1)) {
 		if (ch != ' ') {
 			if ('a' <= ch && 'z' >= ch) {
-				ch -= 32; // 소문자가 숫자 더 큼 
+				ch -= 32; 
+				// 소문자가 숫자 더 큼-> 대문자로 만들기 
 			}
 			str[i] = ch;
 			i++;
@@ -30,4 +31,3 @@ int main() {
 	
 	return 0; 
 }
-*/

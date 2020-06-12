@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12주차", "12주차\12주�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16장", "16장\16장.vcxproj", "{B643BC5F-CA63-4134-A387-17C448314CE8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12장(문자열과포인터)", "12장(문자열과포인터)\12장(문자열과포인터).vcxproj", "{FEE0818E-ED93-40AD-B0C3-063093D49DB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{B643BC5F-CA63-4134-A387-17C448314CE8}.Release|x64.Build.0 = Release|x64
 		{B643BC5F-CA63-4134-A387-17C448314CE8}.Release|x86.ActiveCfg = Release|Win32
 		{B643BC5F-CA63-4134-A387-17C448314CE8}.Release|x86.Build.0 = Release|Win32
+		{FEE0818E-ED93-40AD-B0C3-063093D49DB1}.Debug|x64.ActiveCfg = Debug|x64
+		{FEE0818E-ED93-40AD-B0C3-063093D49DB1}.Debug|x64.Build.0 = Debug|x64
+		{FEE0818E-ED93-40AD-B0C3-063093D49DB1}.Debug|x86.ActiveCfg = Debug|Win32
+		{FEE0818E-ED93-40AD-B0C3-063093D49DB1}.Debug|x86.Build.0 = Debug|Win32
+		{FEE0818E-ED93-40AD-B0C3-063093D49DB1}.Release|x64.ActiveCfg = Release|x64
+		{FEE0818E-ED93-40AD-B0C3-063093D49DB1}.Release|x64.Build.0 = Release|x64
+		{FEE0818E-ED93-40AD-B0C3-063093D49DB1}.Release|x86.ActiveCfg = Release|Win32
+		{FEE0818E-ED93-40AD-B0C3-063093D49DB1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

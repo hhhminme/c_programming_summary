@@ -1,4 +1,4 @@
-/*
+
 #define _CRT_SECURE_NO_WARNINGS
 #define MAX_BUF_SIZE 7
 #include <stdio.h>
@@ -23,4 +23,3 @@ int main() {
 
 	return 0;
 }
-*/

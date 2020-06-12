@@ -41,7 +41,6 @@ void test3() {
 void test4() {
 	int data, data1; 
 	char c; 
-
 	scanf("%d", &data);
 	printf(">data = %d\n", data);
 	
@@ -52,6 +51,7 @@ void test4() {
 	scanf("%d", &data1);
 	printf(" > data1 = %d \n", data1);
 }
+
 
 //getchar()을 이용한 문자열 입력
 void my_gets(char* str, int size) {

@@ -15,13 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="malloc.cpp">
+    <ClCompile Include="문자열상수의 내부표현.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="동적메모리공간을배열처럼사용하기.c">
+    <ClCompile Include="문자포인터변수로문자열상수접근.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="동적메모리할당량재조정.cpp">
+    <ClCompile Include="scanf를 활용한문자열.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
