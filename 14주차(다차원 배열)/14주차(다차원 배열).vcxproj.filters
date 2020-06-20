@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="소스.cpp">
+    <ClCompile Include="2차원문자배열.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2차원배열입력및출력.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

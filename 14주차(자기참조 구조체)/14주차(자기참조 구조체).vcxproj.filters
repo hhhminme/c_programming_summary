@@ -15,7 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="소스.cpp">
+    <ClCompile Include="자기참조구조체선언.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="공용체.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="열거형.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
