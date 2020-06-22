@@ -1,4 +1,4 @@
-/*#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
 #define MAX_BUF_SIZE 7
 #include <stdio.h>
 //\n까지 문자 입력하기 
@@ -49,4 +49,3 @@ int main() {
 	
 	return 0; 
 }
-*/

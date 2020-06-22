@@ -15,13 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2차원문자배열.c">
+    <ClCompile Include="fseek.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2차원배열입력및출력.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="문자열배열 초기화.c">
+    <ClCompile Include="파일열기.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

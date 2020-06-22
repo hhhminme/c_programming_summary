@@ -24,5 +24,8 @@
     <ClCompile Include="구조체포인터.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="구조체배열.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

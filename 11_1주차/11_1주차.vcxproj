@@ -138,6 +138,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\11주차문제풀이\대소문자 변경.c" />
+    <ClCompile Include="..\11주차문제풀이\문자수카운트.cpp" />
+    <ClCompile Include="..\11주차문제풀이\입력암호화.c" />
+    <ClCompile Include="..\Project1\대문자를소문자로.c" />
     <ClCompile Include="소스.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

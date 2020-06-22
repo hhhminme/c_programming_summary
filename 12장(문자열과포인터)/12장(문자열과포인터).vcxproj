@@ -138,6 +138,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\12주차\static 변수 포인터.cpp" />
     <ClCompile Include="scanf를 활용한문자열.c" />
     <ClCompile Include="문자열상수의 내부표현.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
